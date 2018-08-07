@@ -1,0 +1,34 @@
+.Header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 30px;
+}
+
+.Header__Logo {
+  padding: 0;
+  margin: 0;
+
+  border: none;
+}
+
+.Header__Title {
+  margin-right: 30px;
+
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 500px) {
+  .Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Header__Title {
+    font-size: 1.8rem;
+  }
+}

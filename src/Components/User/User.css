@@ -1,0 +1,106 @@
+.User {
+  display: flex;
+  flex-direction: column;
+}
+
+.User__Form {
+
+}
+
+.User__Form_Input {
+  padding: 10px;
+  
+  width: 260px;
+
+  display: block;
+
+  margin: 0 auto;
+
+  font-family: inherit;
+
+  border-radius: 3px;
+  border: 1px solid #5f27cd;
+
+  transition: 
+    transform 300ms cubic-bezier(0.075, 0.82, 0.165, 1),
+    box-shadow 300ms cubic-bezier(0.165, 0.84, 0.44, 1),
+    width 300ms 300ms cubic-bezier(0.19, 1, 0.22, 1),
+    background-color 300ms cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.User__Form_Input:placeholder {
+  color: #cccccc;
+}
+
+.User__Form_Input:focus {
+  transform: scale(1.04);
+  
+  box-shadow: 0px 14px 20px -10px rgba(0, 0, 0, 0.4);
+
+  width: 300px;
+
+  background-color: #5f27cd;
+
+  color: white;
+}
+
+.User__ProfileImage {
+  width: 40%;
+  height: 40%;
+
+  display: block;
+
+  border-radius: 3px; 
+
+  margin-bottom: 10px;
+}
+
+.User__Name {
+  font-size: 2rem;
+  font-weight: 900;
+
+  margin-bottom: 10px;
+}
+
+.User__Detail {
+  font-size: 1rem;
+  font-weight: 400;
+
+  margin-bottom: 10px;
+}
+
+.User__Link {
+  border: 1px solid #5f27cd;
+
+  font-size: 1rem;
+
+  padding: 10px;
+  margin: 10px auto;
+
+  text-decoration: none;
+  
+  color: #54a0ff;
+
+  display: block;
+
+  border-radius: 3px;
+
+  width: 93%;
+
+  transition:   
+    transform 300ms cubic-bezier(0.075, 0.82, 0.165, 1),
+    color 300ms cubic-bezier(0.075, 0.82, 0.165, 1),
+    background-color 300ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.User__Link:hover {
+  transform: scale(1.04);
+  background-color: #5f27cd;
+  color: white;
+}
+
+@media screen and (max-width: 430px) {
+  .User__Name {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,500,700,800,900');
+
+:root {
+  --primary-font: "Fira Sans", sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+
+  font-family: var(--primary-font);
+  font-size: 62.5%;
+}
+
+h1, h2, h3, h4, h5, h6, a, p, span, div, section, li, img {
+  padding: 0;
+  margin: 0;
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,14 @@
+.Footer {
+  text-align: center;
+
+  height: 30px;
+  display: block;
+
+  font-size: 0.6rem;
+}
+
+@media screen and (min-width: 400px) {
+  .Footer {
+    text-align: center;
+  }
+}
